@@ -1,12 +1,14 @@
 import Link from "next/link";
+import Image from "next/image";
 import ThemeSwitch from "./ThemeSwitch";
 
-export default function Header() {
+const Header: React.FC = () => {
   return (
     <header className="bg-white dark:bg-black shadow-sm dark:border-b dark:border-gray-800">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="flex items-center">
-          <span className="text-xl dark:text-gray-100">Next JS Starter Template</span>
+          <Image src="/whitout_bg_green.ico" alt="Logo" width={70} height={0} />
+          <span className="text-xl dark:text-gray-100">KeepCore Uruguay</span>
         </div>
         <nav className="flex items-center">
           <ul className="flex space-x-2 mr-2">
@@ -32,4 +34,6 @@ export default function Header() {
       </div>
     </header>
   );
-}
+};
+
+export default Header;

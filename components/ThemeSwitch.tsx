@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
 import { AiOutlineSun, AiOutlineMoon } from "react-icons/ai";
 
-const ThemeSwitch = () => {
+const ThemeSwitch: React.FC = () => {
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme, resolvedTheme } = useTheme();
 

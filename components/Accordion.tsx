@@ -40,18 +40,41 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ title, content, isOpen, t
 
 const defaultAccordionItems = [
   {
-    title: "Sign up for free",
-    content: "Start your journey with a 34-day trial. It's easy no credit card or commitment.",
+    title: "Profesionalismo",
+    content: "Nos comprometemos con la excelencia en cada solución, brindando un servicio responsable y de calidad.",
   },
   {
-    title: "Easy to use",
+    title: "Confianza",
     content:
-      "Our app is designed to be user-friendly and easy to use. We want to provide a seamless experience for your users so that you can focus on what matters.",
+      "Construimos relaciones sólidas con nuestros clientes a través de la transparencia y la seguridad..",
   },
   {
-    title: "Focus on what matters",
+    title: "Innovacion",
     content:
-      "With better financial management, you can reduce money-related stress and focus on what matters most. More to come.",
+      "Aplicamos la ciencia y la tecnología para ofrecer soluciones creativas y a la vanguardia.",
+  },
+  {
+    title: "Fidelidad",
+    content:
+      "Acompañamos el crecimiento de cada cliente con compromiso y cercanía.",
+  },
+  {
+    title: "Eficiencia",
+    content:
+      "Optimizamos recursos y procesos para garantizar rapidez y resultados efectivos.",
+
+  },
+  {
+    title: "Sostenibilidad",
+    content:
+      "Trabajamos con responsabilidad social y ambiental, aportando a un futuro más equilibrado.",
+
+  },
+  {
+    title: "Trabajo en equipo",
+    content:
+      "Valoramos la colaboración entre personas y tecnologías para alcanzar objetivos comunes.",
+
   },
 ];
 

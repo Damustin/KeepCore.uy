@@ -15,34 +15,34 @@ interface ReviewsProps {
 const defaultReviews: ReviewData[] = [
   {
     rating: 5,
-    title: "Best app ever!",
+    title: "Excelente servicio!",
     content:
-      "This app has been a game-changer for me! It's made tracking my daily activities so much easier. I love how intuitive and user-friendly it is.",
-    author: "Jonas Aly",
+      "lo que más me gusta es la facilidad de uso y la rapidez de respuesta.",
+    author: "Juan Perez",
     designation: "Founder @ Company",
   },
   {
     rating: 5,
-    title: "Super helpful to stay organized",
+    title: "Grandes personas",
     content:
-      "I can't thank this app enough for helping me stay on top of my tasks. The reminders have saved me from missing important deadlines, and I'm much more organized now.",
-    author: "Mark Bures",
-    designation: "Businessman",
+      "lo que más me gusta es la facilidad de uso y la rapidez de respuesta ademas del contacto humano ",
+    author: "CEO @ Globant",
+    designation: "Globant",
   },
   {
     rating: 5,
-    title: "Great app that saves time",
+    title: "Me solucionaron todo",
     content:
-      "The app's integration with my other tools is seamless. I can easily check my progress and activities without having to switch between multiple platforms.",
-    author: "William Kolas",
-    designation: "Student",
+      "Tenia serios problemas con mi red y ellos me solucionaron todo",
+    author: "Studios X",
+    designation: "Cliente",
   },
   {
     rating: 4,
-    title: "Seriously life changing app!",
+    title: "Muy satisfecho",
     content:
-      "The insights and reports have been eye-opening. I now have a better understanding of my habits and can make adjustments to improve my productivity.",
-    author: "Andrew Chan",
+      "La rapidez de respuesta y la facilidad de uso me gustaron mucho",
+    author: "Logistica SRL",
     designation: "Manager @ AB Company",
   },
 ];
@@ -52,7 +52,7 @@ const Reviews: React.FC<ReviewsProps> = ({ reviews = defaultReviews }) => {
     <section className="py-24 bg-gray-50 dark:bg-gray-900">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl text-center mb-8 text-gray-900 dark:text-white">
-          A beautiful reviews section
+          Algunos feedbacks de nuestros clientes
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-8">
           {reviews.map((review, index) => (

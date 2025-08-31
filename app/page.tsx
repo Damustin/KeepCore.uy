@@ -19,30 +19,49 @@ export default function Page() {
         <Section
           leftHalf={
             <>
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
-                Effortlessly highlight the key features of your app
-              </h2>
+              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
+                Sobre nosotros.
+              </h1>
               <p className="text-xl font-light">
-                Our app makes it easy to showcase your key features. With customizable sections, you can highlight the
-                most important aspects of your product. More to come.
+              En Keepcore.uy somos una empresa uruguaya dedicada a ofrecer soluciones de conectividad y redes que impulsan a las empresas hacia el futuro digital. Apostamos por la calidad, la innovación y la seguridad, brindando un servicio confiable que garantiza eficiencia y crecimiento sostenido.
+              Nos destacamos por transformar la complejidad tecnológica en procesos simples, accesibles y efectivos, acompañando a nuestros clientes desde la instalación hasta la gestión y el mantenimiento de sus sistemas.
+              Nuestro equipo multidisciplinario —integrado por especialistas en redes, informática e instalación tecnológica— trabaja con profesionalismo y pasión para que cada proyecto sea una experiencia exitosa. En Keepcore.uy creemos en la mejora continua, en la construcción de relaciones de confianza y en llevar la conectividad a un nivel superior: “The science of networking”.
               </p>
             </>
           }
           rightHalf={
-            <Image src={"/products/phone.png"} alt="section-image" width={500} height={100} className="w-1/2 h-auto" />
+            <Image src={"/working_1.png"} alt="section-image" width={500} height={100} className="w-1/2 h-auto" />
           }
         />
-        <Customers />
+       <Section
+          leftHalf={
+            <>
+              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
+                Visión
+              </h1>
+              <p className="text-xl font-light">
+              Ser referentes en soluciones de conectividad en Uruguay y 
+              el mundo, ofreciendo innovación con un servicio confiable 
+              y seguro, construyendo un futuro interconectado
+              , eficiente y sostenible.
+              </p>
+            </>
+          }
+          rightHalf={
+            <Image src={"/working_2.png"} alt="section-image" width={500} height={100} className="w-1/2 h-auto" />
+          }
+        />
         <Section
           leftHalf={<Accordion />}
           rightHalf={
             <div className="flex flex-col justify-end">
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
-                Highlight the key features
+                Nuestros valores como empresa.
               </h2>
               <p className="text-xl font-light">
-                Talk about some of the key features of your app that you want to highlight. Use the beautiful accordion
-                to highlight the key features of your app.
+                Nuestros valores no solo hablan de nosotros sino tambien de nuestros clientes 
+                y la relacion que creamos 
+                con ellos.
               </p>
             </div>
           }
